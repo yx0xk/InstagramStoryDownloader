@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:vue/essential"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-shadow": "off",
+    "import/extensions": "off"
+  },
+  "plugins": [
+    "vue",
+    "import"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "app/build/webpack.base.conf.js"
+      }
+    }
+  }
+}
